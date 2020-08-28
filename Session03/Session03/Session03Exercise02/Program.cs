@@ -15,6 +15,7 @@ namespace Session03Exercise02
             {
                 Console.WriteLine("Värdet är " + number);
             }
+
         }
     }
 }
