@@ -19,7 +19,7 @@ namespace Session03Excercise02
             Console.WriteLine("Ange ett antal siffror, separerat med kommatecken.");
             var input = Console.ReadLine();
             var inputArray = input.Split(new [] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-            int? sum = 0;
+            int sum = 0;
             int? average = null;
             int? maxValue = null;
             int? minValue = null;
@@ -46,7 +46,7 @@ namespace Session03Excercise02
 
             } catch (Exception e)
             {
-
+                
             }
 
             Console.WriteLine($"\nNumber of values: {intArray.Length}");
