@@ -20,7 +20,7 @@ namespace Session03Excercise02
             var input = Console.ReadLine();
             var inputArray = input.Split(new [] { ',' }, StringSplitOptions.RemoveEmptyEntries);
             int sum = 0;
-            int? average = null;
+            double? average = null;
             int? maxValue = null;
             int? minValue = null;
             List<int> numbers = new List<int>();
@@ -42,7 +42,7 @@ namespace Session03Excercise02
             {
                 maxValue = intArray.Max();
                 minValue = intArray.Min();
-                average = sum / intArray.Length;
+                average = (double)sum / intArray.Length;
 
             } catch (Exception e)
             {
